@@ -1,0 +1,136 @@
+body
+  background-color: whitesmoke
+  font-family: Arial, Helvetica, sans-serif
+
+header 
+  height: 300px
+  padding: 20px
+  color: black
+  background: linear-gradient(305deg, #dbfff3, transparent)
+  h1
+    width: 60%
+    font-size: 40px
+    text-transform: uppercase
+    margin-top: 40px
+  .topNav
+    display: flex
+    justify-content: space-between
+    align-content: center
+    ul
+      display: flex
+      list-style: none
+      text-decoration: none
+      gap:15px
+      li
+          font-weight: 600
+          font-size: 20px
+
+main 
+  width: 100%
+  max-width: 1250px
+  margin: auto
+  color: black
+  padding: 80px 30px
+  min-height: 200px
+
+  .home_body 
+    display: flex
+    flex-direction: column
+    gap:50px
+    .card
+      display: flex
+      gap:30px
+      justify-content: center
+      align-items: center
+      align-content: center
+      &:nth-child(even)
+        direction: rtl
+      .content
+        width: 50%
+
+
+.about_us_list
+  display: flex
+  flex-direction: row
+  list-style: none
+  margin:37px
+
+.about_title
+  margin: 20px
+
+.p_text 
+  margin: 20px
+
+.events_page
+  display: flex
+  flex-direction: row
+  gap: 20px
+  justify-content: center
+  align-items:center
+  min-height: 480px
+  .title
+    margin-bottom:40px
+  .card
+    position: relative
+    h2
+      position: absolute
+      width: 100%
+      top: 40%
+      text-align: center
+      font-size: 38px
+      color: white
+      text-transform: uppercase
+      text-shadow: 1px 1px 20px black
+
+.cat_events
+  width: 100%
+  min-height: 480px
+  .content
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    gap: 30px
+    width: 100%
+    justify-content: flex-start
+    .card
+      display: flex
+      flex-direction: column
+      width: 30%
+
+
+.event_single_page
+  .email_registration
+    margin-top: 10px
+    display: flex
+    flex-direction: column
+    margin-bottom: 15px
+    font-size : 18px
+    font-weight: 800
+    input
+      height: 40px
+      width: 250px
+      box-shadow:none
+      border-radius: 5px
+      border-image: none
+      border: 1px solid #ccc
+      padding-left: 15px
+      outline: none
+      font-size:16px
+      margin-block:10px
+    button
+      height: 40px
+      width: 250px
+      box-shadow:none
+      border-radius: 5px
+      border-image: none
+      border: 1px solid #ccc
+      outline: none
+      font-size:16px
+      cursor: pointer
+     
+
+footer
+  background-color: #333
+  color:#fff
+  padding:10px
+  text-align: center
